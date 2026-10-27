@@ -1,0 +1,17 @@
+:root{--blue:#0a4fc4;--blue-light:#1579e6;--black:#0b0d10;--grey:#555d66;--line:#dfe5ee}
+*{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:light}
+body{font-family:'Rubik',system-ui,sans-serif;background:#fff;color:var(--black);min-height:100vh;display:flex;flex-direction:column;line-height:1.7;-webkit-font-smoothing:antialiased}
+.topbar{height:6px;background:linear-gradient(90deg,var(--blue) 0%,var(--blue-light) 60%,var(--black) 100%)}
+main{flex:1;display:flex;flex-direction:column;align-items:center;padding:0 24px}
+.hero{padding:72px 0 40px;width:100%;display:flex;justify-content:center}
+.logo{width:min(560px,100%);height:auto;display:block}
+.story{max-width:660px;text-align:center;padding:48px 0 96px;border-top:1px solid var(--line);width:100%}
+.eyebrow{font-family:'Poppins',sans-serif;font-weight:600;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);margin-bottom:12px}
+h1{font-family:'Poppins',sans-serif;font-weight:600;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.2;margin-bottom:28px}
+.story p+p{margin-top:18px}
+.story p:not(.eyebrow){font-size:1.12rem;color:var(--grey)}
+footer{background:var(--black);color:#fff;text-align:center;padding:22px 24px;font-size:.92rem;border-top:3px solid var(--blue)}
+footer a{color:#6daff2;text-decoration:none;font-weight:500}
+footer a:hover{text-decoration:underline}
+@media(max-width:600px){.hero{padding:48px 0 28px}.story{padding:36px 0 64px}}
