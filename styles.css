@@ -15,3 +15,21 @@ footer{background:var(--black);color:#fff;text-align:center;padding:22px 24px;fo
 footer a{color:#6daff2;text-decoration:none;font-weight:500}
 footer a:hover{text-decoration:underline}
 @media(max-width:600px){.hero{padding:48px 0 28px}.story{padding:36px 0 64px}}
+.nav{border-bottom:1px solid var(--line);background:#fff}
+.nav nav{max-width:1100px;margin:0 auto;padding:14px 24px;display:flex;justify-content:flex-end;gap:28px}
+.nav a{font-family:'Poppins',sans-serif;font-weight:500;font-size:.9rem;color:var(--black);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+.nav a:hover{color:var(--blue)}
+.nav a[aria-current="page"]{color:var(--blue);border-bottom-color:var(--blue)}
+.hero-sm{padding:48px 0 28px}
+.hero-sm .logo{width:min(380px,100%)}
+.contact{padding-bottom:80px}
+.form{text-align:left;margin-top:32px;display:grid;gap:18px}
+.form label{font-family:'Poppins',sans-serif;font-weight:500;font-size:.85rem;color:var(--black);display:grid;gap:6px}
+.form input,.form textarea{font:inherit;font-family:'Rubik',sans-serif;font-size:1rem;padding:12px 14px;border:1px solid #c9d2df;border-radius:4px;background:#fff;color:var(--black);width:100%}
+.form input:focus,.form textarea:focus{outline:2px solid var(--blue-light);border-color:var(--blue-light)}
+.form button{font-family:'Poppins',sans-serif;font-weight:600;font-size:1rem;background:var(--blue);color:#fff;border:0;border-radius:4px;padding:14px 28px;cursor:pointer;justify-self:start}
+.form button:hover{background:var(--black)}
+.story .note{font-size:.85rem;color:var(--grey);margin-top:0}
+.story .direct{margin-top:32px}
+.story a{color:var(--blue);font-weight:500}
+@media(max-width:600px){.nav nav{justify-content:center}}
