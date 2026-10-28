@@ -64,3 +64,10 @@ footer{background:linear-gradient(180deg,#0b1220,#05070a)}
   .band-inner{flex-direction:column;align-items:center;gap:24px}
   .logo-card{flex-basis:auto;width:100%}
 }
+.band-inner{flex-direction:column}
+.hero-tagline{margin:22px auto 0;max-width:640px;text-align:center;color:#d6e6fb;font-family:Poppins,sans-serif;font-weight:500;font-size:1.15rem;line-height:1.5;letter-spacing:.01em}
+.band-sm .hero-tagline{font-size:1rem;margin-top:16px}
+.footer-brand{margin:0 0 6px;color:#cfd8e6}
+.footer-brand strong{color:#fff;font-family:Poppins,sans-serif;font-weight:600}
+.band-inner .logo-card{flex:none;width:min(560px,100%)}
+.band-sm .band-inner .logo-card{width:min(360px,100%)}
