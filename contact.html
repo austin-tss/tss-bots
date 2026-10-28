@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
-<title>Contact Us | TSS bots</title>
-<meta name="description" content="Contact TSS bots to learn more about the business.">
-<link rel="icon" href="assets/favicon.png" type="image/png">
+<title>Contact Us | VersaNext</title>
+<meta name="description" content="Contact VersaNext to learn more about the business.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="icon" href="assets/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
@@ -23,13 +23,13 @@
 <main>
   <section class="band band-sm">
     <div class="band-inner">
-      <a class="logo-card" href="index.html"><img class="logo" src="assets/logo.png" alt="TSS bots – AI Automation Agency" width="1153" height="429"></a>
+      <a class="logo-card" href="index.html"><img class="logo" src="assets/logo.svg" alt="VersaNext (VNXT) – AI Automation Agency" width="1020" height="400"></a>
     </div>
   </section>
   <section class="story contact">
     <p class="eyebrow">Contact Us</p>
     <h1>Let's talk about your business.</h1>
-    <p>We'd love to learn about your company and share more about what TSS bots can do for you. Send us a note and we'll be in touch.</p>
+    <p>We'd love to learn about your company and share more about what VersaNext can do for you. Send us a note and we'll be in touch.</p>
     <form id="contact-form" class="form" action="#">
       <label>Name<input type="text" name="name" id="name" required autocomplete="name"></label>
       <label>Email<input type="email" name="email" id="email" required autocomplete="email"></label>
@@ -47,7 +47,7 @@ document.getElementById('contact-form').addEventListener('submit',function(e){
   e.preventDefault();
   var v=function(i){return document.getElementById(i).value.trim();};
   var body='Name: '+v('name')+'\nEmail: '+v('email')+'\nCompany: '+v('company')+'\n\n'+v('message');
-  window.location.href='mailto:austin@techsourcedsolutions.com?subject='+encodeURIComponent('TSS bots inquiry from '+v('name'))+'&body='+encodeURIComponent(body);
+  window.location.href='mailto:austin@techsourcedsolutions.com?subject='+encodeURIComponent('VersaNext inquiry from '+v('name'))+'&body='+encodeURIComponent(body);
 });
 </script>
 </body>
