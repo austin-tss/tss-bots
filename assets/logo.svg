@@ -1,20 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 1020 400" width="1020" height="400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -60 1000 392" width="1000" height="392">
 <defs>
 <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#0b4fb3"/><stop offset=".55" stop-color="#1e88ff"/><stop offset="1" stop-color="#6fd0ff"/></linearGradient>
-<linearGradient id="kg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1d24"/><stop offset="1" stop-color="#000"/></linearGradient>
+<linearGradient id="kg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c9d3e3"/></linearGradient>
 <filter id="gl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9" result="b"/><feFlood flood-color="#1e88ff" flood-opacity=".55"/><feComposite in2="b" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
+<rect x="-60" y="-60" width="1000" height="392" fill="#05070c"/>
 <g transform="skewX(-10)">
 <polygon fill="url(#kg)" points="0,0 50,0 100,140 150,0 200,0 126,200 74,200"/>
-<polygon fill="url(#kg)" transform="translate(228,0)" points="0,200 0,0 46,0 146,130 146,0 192,0 192,200 146,200 46,70 46,200"/>
-<g transform="translate(452,0)">
+<polygon fill="url(#kg)" transform="translate(198,0)" points="0,200 0,0 46,0 146,130 146,0 192,0 192,200 146,200 46,70 46,200"/>
+<g transform="translate(388,0)">
 <polygon fill="url(#kg)" points="0,0 56,0 212,200 156,200"/>
 <polygon fill="url(#bg)" filter="url(#gl)" points="160,0 262,0 262,0 56,200 0,200"/>
 <polygon fill="url(#bg)" opacity=".55" points="268,0 300,0 268,32"/>
 </g>
-<polygon fill="url(#kg)" transform="translate(712,0)" points="0,0 200,0 200,46 123,46 123,200 77,200 77,46 0,46"/>
+<polygon fill="url(#kg)" transform="translate(648,0)" points="0,0 200,0 200,46 123,46 123,200 77,200 77,46 0,46"/>
 </g>
-<text x="470" y="282" text-anchor="middle" font-family="Rubik,Montserrat,Arial,sans-serif" font-weight="600" font-size="54" letter-spacing="14" fill="#0a0d14">VERSA<tspan fill="#1579e6">NEXT</tspan></text>
-<rect x="190" y="306" width="560" height="2" fill="#1579e6" opacity=".35"/>
-<text x="470" y="345" text-anchor="middle" font-family="Rubik,Montserrat,Arial,sans-serif" font-weight="400" font-size="26" letter-spacing="9" fill="#3a4250">AI AUTOMATION AGENCY</text>
+<text x="438" y="282" text-anchor="middle" font-family="Rubik,Montserrat,Arial,sans-serif" font-weight="600" font-size="54" letter-spacing="14" fill="#ffffff">VERSA<tspan fill="#3b9bff">NEXT</tspan></text>
 </svg>

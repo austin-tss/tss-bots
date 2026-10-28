@@ -50,7 +50,7 @@ body{overflow-x:clip}
 .band::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(109,175,242,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(109,175,242,.07) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:linear-gradient(180deg,#000,transparent 90%);mask-image:linear-gradient(180deg,#000,transparent 90%);pointer-events:none}
 .band-sm{padding:40px 24px 32px}
 .band-inner{position:relative;max-width:980px;margin:0 auto;display:flex;align-items:center;justify-content:center}
-.logo-card{background:#fff;border-radius:10px;padding:18px 22px;box-shadow:0 0 0 1px rgba(109,175,242,.35),0 18px 50px rgba(21,121,230,.35);display:block;flex:0 1 560px}
+.logo-card{background:#05070c;border-radius:10px;padding:18px 22px;box-shadow:0 0 0 1px rgba(109,175,242,.35),0 18px 50px rgba(21,121,230,.35);display:block;flex:0 1 560px}
 .logo-card .logo{width:100%}
 .band-sm .logo-card{flex-basis:360px;margin-bottom:0}
 .story{border-top:none;padding-top:56px}
